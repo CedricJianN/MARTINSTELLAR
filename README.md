@@ -1,6 +1,6 @@
 # AgriGrant Wallet
 
-![AgriGrant Wallet Screenshot](Screenshot%202026-05-26%201.png)
+![AgriGrant Wallet Screenshot](Screenshot 2026-05-26 1.png)
 
 Instant subsidy distribution for rice farmers using Stellar.
 
