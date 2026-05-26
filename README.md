@@ -1,22 +1,36 @@
-# Soroban Project
+# AgriGrant Wallet
 
-## Project Structure
+Instant subsidy distribution for rice farmers using Stellar.
 
-This repository uses the recommended structure for a Soroban project:
+## Problem
+Rice farmers in Nueva Ecija experience delayed subsidy payouts because approvals are paper-based and slow.
 
-```text
-.
-├── contracts
-│   └── hello_world
-│       ├── src
-│       │   ├── lib.rs
-│       │   └── test.rs
-│       └── Cargo.toml
-├── Cargo.toml
-└── README.md
-```
+## Solution
+A Soroban contract verifies approved farmers and enables instant subsidy claims on Stellar.
 
-- New Soroban contracts can be put in `contracts`, each in their own directory. There is already a `hello_world` contract in there to get you started.
-- If you initialized this project with any other example contracts via `--with-example`, those contracts will be in the `contracts` directory as well.
-- Contracts should have their own `Cargo.toml` files that rely on the top-level `Cargo.toml` workspace for their dependencies.
-- Frontend libraries can be added to the top-level directory as well. If you initialized this project with a frontend template via `--frontend-template` you will have those files already included.
+## Timeline
+- Day 1: Smart contract setup
+- Day 2: Farmer claim flow
+- Day 3: Frontend wallet integration
+- Day 4: Testing and demo
+
+## Contract ID:
+CBWV7GVHTX3N46CU65BHO2S2XGON7KBKISDI2FN3TESYO3L7KK722XMJ
+
+## Stellar Features Used
+- USDC transfers
+- Soroban smart contracts
+- Trustlines
+- Custom assets
+
+## Vision and Purpose
+Reduce delays in agricultural aid distribution and improve financial access for small farmers.
+
+## Prerequisites
+- Rust
+- Soroban CLI
+- Stellar testnet account
+
+## Build
+```bash
+soroban contract build
